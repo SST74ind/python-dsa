@@ -1,3 +1,5 @@
+#time complexity: O(n)
+#space complexity: O(1)
 class Solution(object):
     def isHappy(self, n):
         def get_next(n):
@@ -15,4 +17,5 @@ class Solution(object):
         return fast==1
 # Example usage:
 solution = Solution()
-print(solution.isHappy(19))
+print(solution.isHappy(19)) # Output: True
+print(solution.isHappy(2))  # Output: False
