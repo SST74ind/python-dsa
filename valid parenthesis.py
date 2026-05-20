@@ -1,3 +1,5 @@
+#space complexity: O(1)
+#time complexity: O(n)
 class Solution(object):
     def isValid(self, s):
         """
@@ -16,7 +18,7 @@ class Solution(object):
                 L.append(i)
         return not L
 # Example usage:
-solution = Solution()
+solution=Solution()
 print(solution.isValid("()"))  # Output: True
 print(solution.isValid("()[]{}"))  # Output: True
 print(solution.isValid("(]"))  # Output: False

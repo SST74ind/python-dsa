@@ -18,7 +18,7 @@ print(solution.isPalindrome("race a car"))  # False
 #automatically, O(1) space
 class Solution2(object):
     def isPalindrome(self, s):
-        l,r = 0,len(s)-1
+        l,r=0,len(s)-1
         while l<r:
             while l<r and not s[l].isalnum():
                 l+=1

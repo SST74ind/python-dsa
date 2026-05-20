@@ -18,6 +18,8 @@ class SolutionOptimal(object):
             if complement in seen:
                 return [seen[complement], i]
             seen[num]=i
+            
+#Example usage:
 nums=[2, 7, 11, 15]
 target=9
 print("Brute Force:",SolutionBruteForce().twoSum(nums, target))

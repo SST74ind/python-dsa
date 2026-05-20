@@ -8,6 +8,7 @@ A collection of my Data Structures and Algorithms practice solutions in Python (
 - Valid Parenthesis (Using a Dictionary approach)
 - Best Time to buy and sell stocks (Greedy approach)
 - Valid Palindrome (Using both 2 pointers and String cleaning approach)
+- Min Cost to climb stairs (Using Bottom-Up approach)
 
 ## Languages Used
 - Python 3
